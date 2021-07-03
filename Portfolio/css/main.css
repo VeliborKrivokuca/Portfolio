@@ -1,0 +1,316 @@
+@font-face {
+    font-family: font;
+    src: url("../Quicksand/Quicksand-VariableFont_wght.ttf");
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.15s ease;
+    font-family: font;
+}
+
+.bright {
+    background-color: white;
+}
+
+.dark {
+    background-color: rgb(46, 43, 90) !important;
+    color: rgb(220, 218, 255) !important;
+    transition: 0s !important;
+    border-color: rgb(46, 43, 90) !important;
+}
+
+.main {
+    background-image: url("../images/background3.png");
+    background-size: cover;
+    margin: 0px !important;
+    width: 100%;
+    max-width: 100% !important;
+    padding: 0px !important;
+    z-index: 111;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: rgb(0, 155, 155) !important;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    border: 2px solid rgb(72, 221, 221);
+    border-radius: 10px;
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.kolona {
+    text-align: left;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.headerrow {
+    padding: 20px !important;
+}
+
+#mySidenav {
+    display: none;
+}
+
+.logo {
+    width: 75px;
+}
+
+.avatar:hover {
+    transform: scale(1.05);
+}
+
+.kolona ul li {
+    margin: 0px 10px;
+    padding: 6px;
+}
+
+.kolona ul .contact:hover {
+    background-color: rgb(62,177,180);
+}
+
+.kolona ul a .contact:hover {
+    color: white !important;
+}
+
+.kolona ul a li {
+    color: black;
+    font-size: 20px;
+}
+
+ul li i {
+    font-size: 30px;
+    color: rgb(0, 37, 37);
+    padding: 5px;
+}
+
+.desno {
+    text-align: right;
+}
+
+.kolona ul a:hover li{
+    color: white !important;
+}
+
+.mainwrapper .hello {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mainwrapper .hello h1 {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.mainwrapper .hello p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.mainwrapper .imgwrap img {
+    width: 15%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mainwrapper .imgwrap {
+    margin: 0 auto ;
+    text-align: center;
+}
+
+.omeni {
+    margin: 0px !important; 
+    padding: 0px !important;
+}
+
+.element {
+    margin: 0px !important;
+    padding: 0px !important;
+    text-align: center;
+}
+
+.element img {
+    width: 80%;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.element h3 {
+    padding: 3px;
+    background-color: rgb(62,177,180);
+    color: white;
+    padding-left: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.element img:hover {
+    transform: scale(1.03);
+}
+
+.languages {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.languages li {
+    border: none;
+    display: block;
+    font-size: 20px;
+    text-align: right;
+}
+
+.projekat {
+    padding: 10px;
+}
+
+.projekti .projekat {
+    padding: 0px !important;
+}
+
+.projekti .projekat img {
+    padding: 10px !important;
+    width: 90%;
+}
+
+.projekti .projekat p {
+    text-align: left;
+    font-size: 20px;
+}
+
+.percent {
+    background-color: rgb(62,177,180);
+    width: 30%;
+    height: 19px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.percent .fill {
+    height: 19px;
+    border-radius: 5px;
+}
+
+.percent .html {
+    background-color: rgb(102, 246, 251);
+    width: 100%;
+}
+
+.percent .python {
+    background-color: rgb(102, 246, 251);
+    width: 70%;
+}
+
+.percent .php {
+    background-color: rgb(102, 246, 251);
+    width: 10%;
+}
+
+.percent .js {
+    background-color: rgb(102, 246, 251);
+    width: 90%;
+}
+
+.percent .ce {
+    background-color: rgb(102, 246, 251);
+    width: 80%;
+}
+
+@media screen and (max-width:1400px) {
+    .fill {
+        width: 50%;
+    }
+    .projekat p {
+       font-size: 17px !important;
+    }
+    .languages li{
+        width: 100%;
+    }
+    .languages li {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1700px) {
+    .languages li {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .percent {
+        width: 100%;
+    }
+    .languages li {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .avatar {
+        width: 25% !important;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .element h3 {
+        font-size: 23px !important;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .element h3 {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .desno {
+        text-align: unset;
+    }
+    .element h3 {
+        font-size: 22px !important;
+    }
+    .projekti .projekat img {
+        width: 80%;
+    }
+    .headerrow .kolona ul {
+        text-align: right;
+    }
+    .headerrow .kolona ul a li{
+        margin-bottom: 5px;
+        font-size: 15px !important;
+    }
+    .avatar {
+        width: 35% !important;
+    }
+    .mySidenav {
+        display: block;
+        text-align: right;
+    }
+    .desno {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .avatar {
+        width: 40% !important;
+    }
+}
+
